@@ -2,5 +2,5 @@
     "watch": ["src"],
     "ext": "ts,js,graphql,json",
     "ignore": ["src/**/*.spec.ts"],
-    "exec": "nest start --watch"
+    "exec": "tsc && node dist/main.js"
 }
